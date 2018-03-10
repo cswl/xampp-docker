@@ -1,4 +1,4 @@
-IMAGE_NAME=cswl/xampp-docker
+IMAGE_NAME=cswl/xampp
 CONTAINER_NAME=xamppy-docker
 PUBLIC_WWW_DIR='~/web_pages'
 

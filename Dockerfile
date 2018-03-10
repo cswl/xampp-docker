@@ -1,5 +1,5 @@
 # Build with:
-# 	docker build -t cswl/xampp-docker .
+# 	docker build -t cswl/xampp .
 
 FROM ubuntu:17.10
 

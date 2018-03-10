@@ -6,10 +6,10 @@ The install.js script is a temporary workaround for building XAMPP in docker.
 Note: This image was built for development purposes.
 
 ## Getting the image: 
-The image has been pushed to [Dockerhub](https://hub.docker.com/u/cswl/)  
+The image has been pushed to [Dockerhub](https://hub.docker.com/r/cswl/xampp/)  
 So you can just:
 ```
-docker pull cswl/xampp-docker
+docker pull cswl/xampp
 ```
 
 ## Building the image from source.:
@@ -23,7 +23,7 @@ $ git clone https://github.com/cswl/xampp-docker.git
 Second, change directory to the just now cloned repository.
 
 ```
-$ docker build -t cswl/xampp-docker .
+$ docker build -t cswl/xampp .
 ```
 
 ## Running the image:
