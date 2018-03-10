@@ -5,8 +5,14 @@ Docker image containg the latest XAMPP 7.2.2.
 The install.js script is a temporary workaround for building XAMPP in docker.  
 Note: This image was built for development purposes.
 
-## Building the image:
-Currently this image hasn't been pushed to [Dockerhub](https://hub.docker.com/u/cswl/) so you need to build it from source.
+## Getting the image: 
+The image has been pushed to [Dockerhub](https://hub.docker.com/u/cswl/)  
+So you can just:
+```
+docker pull cswl/xampp-docker
+```
+
+## Building the image from source.:
 
 First, clone this project.
 
@@ -17,7 +23,7 @@ $ git clone https://github.com/cswl/xampp-docker.git
 Second, change directory to the just now cloned repository.
 
 ```
-$ docker build -t cswl/xampp .
+$ docker build -t cswl/xampp-docker .
 ```
 
 ## Running the image:
