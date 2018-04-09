@@ -10,7 +10,7 @@ RUN apt-get update && \
 
 # Download the installer (7.2.2)
 RUN XAMPP_DL_LINK=' \
-	https://downloadsapachefriends.global.ssl.fastly.net/xampp-files/7.2.2/xampp-linux-x64-7.2.2-0-installer.run?from_af=true  \
+	https://downloadsapachefriends.global.ssl.fastly.net/xampp-files/7.2.3/xampp-linux-x64-7.2.3-0-installer.run?from_af=true  \
 	' \ 
 	&& curl -L -o xampp-linux-installer.run $XAMPP_DL_LINK
 
