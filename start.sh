@@ -13,7 +13,6 @@ docker start $CONTAINER_NAME > /dev/null 2> /dev/null || {
 	       -p 3386:3306 \
 	       --name $CONTAINER_NAME \
 	       --tty \
-		   -v ~/web_pages:/www \
 			$IMAGE_NAME
 }
 
