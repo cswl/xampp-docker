@@ -1,6 +1,6 @@
 ## xampp-docker
 
-Docker image containg the latest XAMPP 7.2.3.
+Docker image containg the latest XAMPP 7.2.4.
 
 The install.js script is a temporary workaround for building XAMPP in docker.  
 Note: This image was built for development purposes.
@@ -24,12 +24,9 @@ Your webpage will be served at: http://localhost:8086/www
 And to open up the XAMPP interface: http://localhost:8086/  
 The MySQL port is also exposed at at mysql://localhost:3086
 
+All the XAMPP services are started by default.
 To startup a bash shell. Just run the startup script without arguments.
-To start all XAMPP services.
 
-```
-./start.sh lampp start
-```
 
 ## Building the image from source.:
 
