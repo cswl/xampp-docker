@@ -1,0 +1,6 @@
+# Temporary workaround for Installer error
+RUN curl -L -o setup_nvm.sh  https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh 
+RUN bash './setup_nvm.sh'
+COPY nvm-install.sh /nvm-install.sh
+COPY install.js /install.js
+RUN bash '/nvm-install.sh'
